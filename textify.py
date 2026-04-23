@@ -147,7 +147,7 @@ class GroupInfoExtractor:
         self,
         kmeans_model: Optional[object] = None,
         n_clusters: int = 100,
-        dataset_path: str = "./data/dataset.txt",
+        dataset_path: str = "./virtualTB/SupervisedLearning/dataset.txt",
         model_save_path: str = "./models/kmeans_T1.pkl",
     ):
         """
