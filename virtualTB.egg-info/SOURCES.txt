@@ -1,0 +1,6 @@
+setup.py
+virtualTB.egg-info/PKG-INFO
+virtualTB.egg-info/SOURCES.txt
+virtualTB.egg-info/dependency_links.txt
+virtualTB.egg-info/requires.txt
+virtualTB.egg-info/top_level.txt

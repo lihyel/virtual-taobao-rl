@@ -1,0 +1,23 @@
+{
+    "name": "Virtual-Taobao-Env",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylint"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.linting.enabled": true
+            }
+        }
+    },
+    "remoteUser": "root",
+    "runArgs": [
+        "--platform", "linux/amd64"
+    ]
+}

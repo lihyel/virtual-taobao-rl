@@ -1,0 +1,10 @@
+# 텐서플로우 1.15와 호환되는 버전들
+numpy==1.18.5
+pandas==1.1.5
+scipy==1.4.1
+matplotlib==3.3.4
+# Gym 구버전 (Virtual-Taobao 호환용)
+gym==0.10.11
+# 기타 필수 도구
+tqdm
+scikit-learn
