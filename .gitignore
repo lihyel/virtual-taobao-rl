@@ -5,3 +5,9 @@ __pycache__/
 *.npy
 data/
 virtualTB/SupervisedLearning/dataset.txt
+
+models/
+output/
+*.log
+*.pt
+virtualTB.egg-info/
