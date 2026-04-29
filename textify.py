@@ -92,7 +92,7 @@ DIM_ACTOR_INPUT = DIM_DISTILBERT + DIM_DYNAMIC_RAW  # 771D
 # [섹션 2] 레이블 매핑 테이블
 # =======================================================================
 
-# browsing_category: VT Figure3 'Category Proportion'(8개) + README 'browsing history'
+# browsing_category: VT Figure3 'Category Proportion'(8개) + README 'browsing history' + taobao 광고 category_code (크기 8 일치)
 CATEGORY_LABELS = {
     0: "패션/의류",
     1: "전자/가전",
