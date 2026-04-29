@@ -84,7 +84,11 @@ def get_device() -> str:
 
 
 # =======================================================================
+<<<<<<< HEAD
 # [섹션 2] Replay Memory — 91D 원본 저장 방식
+=======
+# [섹션 2] Replay Memory — 91D 원본 저장 방식 (혜리님 설계 유지)
+>>>>>>> c81a657868e8876a5941fe31d9bb3d86081f00f3
 # =======================================================================
 # 설계 근거: 91D 수치를 메모리에 저장 후 배치 학습 시 일괄 텍스트화
 # → 메모리 효율적 (프롬프트 문자열 대비 용량 절약)
@@ -504,4 +508,4 @@ if __name__ == "__main__":
     parser.add_argument("--resume", action="store_true",
                         help="가장 최근 체크포인트에서 이어서 학습")
     args = parser.parse_args()
-    main(resume=args.resume)
+:wq    main(resume=args.resume)
