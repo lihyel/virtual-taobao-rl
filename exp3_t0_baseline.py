@@ -11,7 +11,7 @@ from torch.optim import Adam
 from collections import namedtuple
 import gym
 import virtualTB
-from trainer_lm_ddpg import OUNoise, get_device
+from t1_trainer_lm_ddpg import OUNoise, get_device
 
 
 Transition = namedtuple('Transition',

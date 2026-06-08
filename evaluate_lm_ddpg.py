@@ -46,9 +46,9 @@ from tqdm import tqdm
 import gym
 import virtualTB
 
-from textify import prepare_state, GroupInfoExtractor
+from t1_textify import prepare_state, GroupInfoExtractor
 from distilbert_encoder import DistilBERTEncoder, LMActor
-from trainer_lm_ddpg import get_device
+from t1_trainer_lm_ddpg import get_device
 
 
 # =======================================================================

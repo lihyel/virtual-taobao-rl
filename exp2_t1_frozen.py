@@ -8,7 +8,7 @@ import sys
 sys.path.insert(0, '.')
 
 # trainer_lm_ddpg_v2의 main을 재사용, encoder만 frozen으로 교체
-from trainer_lm_ddpg import (
+from t1_trainer_lm_ddpg import (
     ReplayMemory, OUNoise, LMDDPG, get_device,
     Transition  # 없으면 Transition 사용
 )
@@ -16,7 +16,7 @@ import os, random, logging, numpy as np, torch
 import gym
 import virtualTB
 from collections import namedtuple
-from textify import prepare_state, GroupInfoExtractor
+from t1_textify import prepare_state, GroupInfoExtractor
 from distilbert_encoder import DistilBERTEncoder
 
 Transition = namedtuple('Transition',
